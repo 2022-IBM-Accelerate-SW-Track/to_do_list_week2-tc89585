@@ -72,3 +72,5 @@ test('test that App component renders', () => {
     expect(check).toBeInTheDocument();
    });
   
+render(<App />)
+const element = screen.getByTestId('app-component')
